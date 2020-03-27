@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <title>Boids!</title>
+  </head>
+  
+  <body>
+    <script src="boid.js"></script>
+    <script src="main.js"></script>
+
+    <div class="center">
+      <br>
+      <div class="container">
+        <img src="cohesion.png" class="image" alt="cohesion">
+        <div class="slider">
+          <input type="range" id="cohesion" min="0" max="100" value="20" step="2">
+          <h1>Cohesion</h1>
+        </div>
+      </div>
+      
+      <div class="container">
+        <img src="alignment.png" class="image" alt="alignment">
+        <div class="slider">
+          <input type="range" id="alignment" min="0" max="100" value="20" step="2">
+          <h1>Alignment</h1>
+        </div>
+      </div>
+      
+      <div class="container">
+        <img src="separation.png" class="image" alt="separation">
+        <div class="slider">
+          <input type="range" id="separation" min="0" max="100" value="20" step="2">
+          <h1>Separation</h1>
+        </div>
+      </div>
+
+      <button id="reset">Reset</button>
+    </div>
+
+  </body>
+</html>
