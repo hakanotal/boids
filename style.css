@@ -45,3 +45,13 @@ h1 {
 #reset {
   margin-left: 50px;
 }
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: hotpink;
+}
+a:hover {
+  color: lightgreen;
+}
